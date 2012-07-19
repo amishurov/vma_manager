@@ -1,0 +1,2 @@
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Selenium\Parameters /v Application /d "\"java.exe\"  -jar \"C:\\selenium\\selenium.jar\" -role \"node\"  -hub \"http://grid.pyn.ru:4141/grid/register\" -browser \"browserName=firefox,maxInstances=30,platform=WINDOWS\" -timeout \"5000000\" -maxSession \"30\" -proxyInjectionMode" /f
+echo "OK"
