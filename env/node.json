@@ -1,0 +1,28 @@
+{
+  "capabilities":
+      [
+        {
+          "browserName": "firefox",
+          "platform": "WINDOWS",
+          "maxInstances": 10
+        },
+        {
+          "browserName": "chrome",
+          "platform": "WINDOWS",
+          "maxInstances": 10
+        }
+      ],
+    "configuration":
+        {
+        "port":5555,
+        "hubPort":4141,
+        "hubHost":"grid.pyn.ru",
+        "registerCycle":10000,
+        "register":true,
+        "cleanUpCycle":2000,
+        "timeout":3000000,
+        "maxSession":30,
+	"ensureCleanSession": true
+        }
+}
+
